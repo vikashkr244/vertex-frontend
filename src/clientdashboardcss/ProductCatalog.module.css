@@ -1,0 +1,23 @@
+/* src/styles/ProductCatalog.css */
+.product-catalog {
+    padding: 20px;
+  }
+  
+  .product-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  
+  .product-list {
+    display: grid;
+    gap: 15px;
+  }
+  
+  .filters input {
+    padding: 10px;
+    width: 100%;
+  }
+  

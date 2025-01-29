@@ -1,0 +1,45 @@
+/* src/clientdashboardcss/CartPage.module.css */
+
+.cartPage {
+    padding: 20px;
+  }
+  
+  .cartItems {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .cartItem {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .cartItemImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .cartItemDetails {
+    flex-grow: 1;
+  }
+  
+  .cartItemPrice {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .cartItemDiscountedPrice {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .cartItemOriginalPrice {
+    text-decoration: line-through;
+    color: red;
+  }
+  

@@ -1,0 +1,70 @@
+/* src/components/Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(90deg, #1f4037, #99f2c8); /* Green gradient */
+  color: white;
+  font-size: 1.2rem; /* Base font size for the navbar */
+}
+
+.navbar .logo {
+  font-size: 2rem; /* Increased font size for the logo */
+  font-weight: bold; /* Bold text for emphasis */
+  color: #ffffff;
+}
+
+.navbar .logo a {
+  text-decoration: none;
+  color: inherit; /* Use the parent's color */
+  transition: color 0.3s ease;
+}
+
+.navbar .logo a:hover {
+  color: #f4986b; /* Change color on hover */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem; /* Adjust spacing between links */
+}
+
+.nav-links li a,
+.nav-links li Link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem; /* Increase link font size */
+  transition: text-decoration 0.3s ease;
+}
+
+.nav-links li a:hover,
+.nav-links li Link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      padding: 1rem;
+      font-size: 1rem; /* Slightly smaller font size for compact view */
+  }
+
+  .nav-links {
+      flex-direction: column; /* Stack links vertically */
+      gap: 1rem; /* Adjust spacing between links */
+  }
+
+  .nav-links li a,
+  .nav-links li Link {
+      font-size: 1.1rem; /* Adjust size for smaller screens */
+  }
+
+  .navbar .logo {
+      font-size: 1.8rem; /* Adjust logo size for smaller screens */
+  }
+}
+

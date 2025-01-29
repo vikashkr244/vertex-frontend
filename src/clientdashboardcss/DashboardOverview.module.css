@@ -1,0 +1,12 @@
+/* src/styles/DashboardOverview.css */
+.dashboard-overview {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.overview-section {
+  margin-bottom: 20px;
+  background: #edf2f7;
+  padding: 15px;
+  border-radius: 8px;
+}

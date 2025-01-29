@@ -1,0 +1,29 @@
+/* src/styles/HeroAdder.css */
+
+.hero-adder {
+    color: black;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+  }
+  
+  .hero-adder p {
+    font-weight: bold;
+    font-size: 1.5rem;
+    animation: fadeIn 3s ease-in-out infinite;
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

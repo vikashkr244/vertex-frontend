@@ -1,0 +1,66 @@
+/* src/styles/Support.module.css */
+.support {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.faq {
+    margin-bottom: 20px;
+}
+
+.faq h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #1d4ed8;
+}
+
+.faq ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.faq li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.contact h3 {
+    font-size: 1.2em;
+    color: #1d4ed8;
+}
+
+.contact p {
+    margin: 8px 0;
+    font-size: 1em;
+}
+
+.chatButton {
+    padding: 10px 15px;
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.chatButton:hover {
+    background-color: #0a58ca;
+}
+
+a {
+    color: #1d4ed8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
